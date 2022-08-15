@@ -98,12 +98,12 @@ main {
 }
 .card-title a {
   color: var(--White-Dark-Mode-Text-Light-Mode-Elements);
-  text-decoration: none;
+  text-decoration-thickness: 2px;
 }
 .card-title:hover {
   cursor: pointer;
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 3px;
   font-size: 1.01rem;
 }
 
