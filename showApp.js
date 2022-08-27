@@ -61,7 +61,7 @@ const showCountry = async (data) => {
   }
 
   // doing all this bcz "borders" array from data contains border countries alpha-3 code, not the
-  // name so, with help of alpha code i am find countires name.
+  // name so, with help of alpha code i am finding countires name.
   const borderCountries = document.querySelector(".border_countries");
   borderCountries.textContent = `Border Countries : `;
   if (!borders) {
@@ -74,7 +74,7 @@ const showCountry = async (data) => {
       const span = document.createElement("span");
       const res = await fetch(`https://restcountries.com/v3.1/alpha/${border}`);
       const dataForName = await res.json();
-      span.textContent = dataForName[0].name.common;
+      span.innerHTML = `<a href="show.html?name=${dataForName[0].name.common}">${dataForName[0].name.common}</a>`;
       borderCountries.append(span);
     }
   }
