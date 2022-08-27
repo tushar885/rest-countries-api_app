@@ -61,7 +61,7 @@ Users should be able to:
 
 ### Continued development
 
-The app is fully responsive but it has no theme switch as of you, will be adding it sometime.
+The app is fully responsive but it has no theme switch as of now, will be adding it sometime.
 
 ### Useful resources
 
