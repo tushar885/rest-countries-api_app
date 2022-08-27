@@ -114,6 +114,10 @@ main {
   border-radius: 4px;
   background-color: var(--Dark-Blue-Dark-Mode-Elements);
 }
+.border_countries span a{
+text-decoration: none;
+  color: var(--White-Dark-Mode-Text-Light-Mode-Elements);
+}
 
 @media (max-width: 1020px) {
   .main_content {
