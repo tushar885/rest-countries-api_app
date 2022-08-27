@@ -114,6 +114,9 @@ main {
   border-radius: 4px;
   background-color: var(--Dark-Blue-Dark-Mode-Elements);
 }
+.border_countries span:hover{
+font-size:0.9rem;
+}
 .border_countries span a{
 text-decoration: none;
   color: var(--White-Dark-Mode-Text-Light-Mode-Elements);
