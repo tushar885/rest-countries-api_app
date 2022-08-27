@@ -7,6 +7,7 @@ const flagImg = document.querySelector(".flagImg");
 const loader = document.querySelector("#preloader");
 const backBtn = document.querySelector(".btn");
 
+
 // console.log(name);
 const showCountry = async (data) => {
   //   console.log(data[0].name.common);
@@ -31,6 +32,10 @@ const showCountry = async (data) => {
   const countryTitle = document.querySelector(".country_title");
   countryTitle.textContent = data[0].name.official;
   const span1 = document.querySelector("#span1");
+  
+  //adding tab page title
+  const pageTitle = document.querySelector('title');
+  pageTitle.textContent = data[0].name.common;
 
   // adding common name, population, region, subregion, capital, tld
   span1.textContent = `Common Name : ${data[0].name.common}`;
